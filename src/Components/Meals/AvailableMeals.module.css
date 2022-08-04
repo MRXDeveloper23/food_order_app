@@ -10,6 +10,31 @@
   margin: 0;
   padding: 0;
 }
+.meals .create-btn {
+  text-align: right;
+  margin: 0 1rem;
+}
+
+.create-meal {
+  font: inherit;
+  cursor: pointer;
+  text-align: right;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.create-meal:hover,
+.create-meal:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.loading {
+  text-align: center;
+}
 
 @keyframes meals-appear {
   from {
