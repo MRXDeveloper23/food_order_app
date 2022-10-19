@@ -2,7 +2,7 @@
   "name": "food_order_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mrxdeveloper23.github.io/food_order_app",
+  "homepage": "https://mrxdeveloper23.github.io/food_order_app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
